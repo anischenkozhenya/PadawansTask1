@@ -6,7 +6,7 @@ namespace PadawansTask1
     {
         public static int GetYears(int initialPopulation, double percent, int visitors, int currentPopulation)
         {
-            if (currentPopulation <= initialPopulation || initialPopulation < 0 || percent <= 0 || visitors < 0 || currentPopulation < 0)
+            if (currentPopulation <= initialPopulation || initialPopulation <=0 || percent <= 0 || visitors < 0 || currentPopulation <= 0)
             {
                 throw new NotImplementedException();
             }
